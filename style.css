@@ -1,13 +1,17 @@
 body{
     font-family: 'Roboto Slab', serif;
     margin: 0;
-    padding: 0;
+    
 }
 .color-heading{
     color: rgb(0, 123, 128);
 }
-section{
+.flexible-area{
     display: flex;
+    margin-bottom: 50px;
+}
+#for-part1{
+    padding: 5%;
 }
 .for-h1{
     font-family: 'Racing Sans One', cursive;
@@ -24,8 +28,8 @@ section{
     padding: 10px 30px;
 }
 .half-width{
-    width: 50%;
-    padding: 5%;
+    width: 60%;
+    padding: 5px;
 }
 .half-width p{
     width: 70%;
@@ -33,38 +37,40 @@ section{
 }
 .half-width img{
     width: 55%;
+    align-items: center;
+    
+    
 }
 .part2-start{
     text-align: center;
 }
-.part-2{
+.flexible-area2{
     display: flex;
+    margin-bottom: 2%;
+    padding: 0% 5%;
+    
 }
 .h1-part2{
     font-size: 35px;
     text-align: center;
     color: rgb(6, 6, 46);
 }
-.part2-start{
-    
-}
-.part2-weidth{
-    margin: 100px;
-    width: 50%
-    padding: 2%;
-    
-}
+
 .part2-weidth img{
     width: 30%;
 }
+.part2-weidth{
+    margin-bottom: 5%;
+    padding: 0% 5%;
+
+}
 #p2-background1{
-    background-color: rgb(87, 51, 86);
-    border-radius: 5px;
-    margin: 100px;
+        background-color: rgb(209, 182, 219);
+        border-radius: 10px;
 }
 .part-3{
-    width: 40%;
-    padding: 10%;
+    width: 30%;
+    padding: 2% 5%;
 }
 .part-3 img{
     width: 70%;
@@ -74,10 +80,11 @@ section{
 }
 .part-4{
     width: 40%;
-    padding: 10%;
+    padding: 2% 5%
 }
 .part-4 h2{
 font-size: 30px;
+margin: ;
 }
 .part-4 img{
 width: 70%;
