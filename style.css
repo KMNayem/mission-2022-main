@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto Slab', serif;
     margin: 0;
+    padding: 0;
     
 }
 .color-heading{
@@ -61,13 +62,23 @@ body{
 }
 .part2-weidth{
     margin-bottom: 5%;
-    padding: 0% 5%;
+    padding: 2% 5%;
+    margin: 10px;
 
 }
 #p2-background1{
         background-color: rgb(209, 182, 219);
         border-radius: 10px;
 }
+#p2-background2{
+    background-color: rgb(173, 230, 224);
+    border-radius: 10px;
+}
+#p2-background3{
+    background-color: rgb(242, 173, 161);
+    border-radius: 10px;
+}
+
 .part-3{
     width: 30%;
     padding: 2% 5%;
@@ -77,6 +88,14 @@ body{
 }
 .part-3 h2{
      font-size: 30px;
+}
+#area-3{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left; 
+    background-size: 15%;  
+    margin-left: 3%;
+    padding-top: 3%;
 }
 .part-4{
     width: 40%;
@@ -89,10 +108,42 @@ margin: ;
 .part-4 img{
 width: 70%;
 }
-.last{
+#area-4{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 10%;
+
+}
+.part-5{
+    width: 30%;
+    margin-left: 5%;
+}
+.color-h2{
+    color: rgb(0, 123, 128);
+}
+.section-5{
+    background-image: url(images/shapes/shape-6.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    padding-top: 7% 3%;
+}
+footer{
     background-color: black;
     color: white;
     text-align: center;
     padding: 3%;
-    
 }
+.for-h2{
+    font-family: 'Lobster Two', cursive;
+}
+.color-2022{
+color: rgb(0, 145, 145);
+}
+.p-font{
+    font-family: 'Josefin Slab', serif;;
+}
+
+
+
